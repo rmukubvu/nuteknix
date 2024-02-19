@@ -462,16 +462,16 @@ top: 40px;
 * ----------------------------------------------------------------------------------------
 */
 .home_bg {
-	height: 800px;
+	height: 600px;
 	position:relative;
 }
 .home_bg::before {    
 	position: absolute;
     content: "";
-    left: 0;
+    left: 80;
     bottom: 0;
     top: 0;
-    right: 0;
+    right: 80;
     background: rgba(7, 41, 77, 0.1);
 }
 @media only screen and (max-width:768px){
@@ -479,10 +479,10 @@ top: 40px;
 	height: auto;
 	position:relative;
 }
-.hb_height {height: 800px;}
+.hb_height {height: 600px;}
 }
 @media only screen and (max-width:480px){
-.hb_height {height: 800px;}
+.hb_height {height: 600px;}
 }
 .hero-text{position:relative;}
 .hero-text h1 {
